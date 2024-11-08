@@ -1,0 +1,40 @@
+
+.box{
+  &:hover{
+    cursor: pointer;
+  }
+}
+.opop{
+  &:hover{
+    cursor: not-allowed;
+  }
+}
+.uu{
+  font-family: cursive
+}
+
+
+.box{
+  cursor: pointer;
+  background: gray;
+}
+.circwin{
+  background: rgb(20, 230, 212);
+  
+}
+.crswon{
+  background-color: rgb(221, 103, 215);
+}
+
+
+@media (max-width: 400px) {
+
+  #boxcont{
+    width: 330px;
+  }
+  .changewh{
+    width: 100px;
+    height: 100px;
+  }
+  
+}
